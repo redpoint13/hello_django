@@ -1,0 +1,6 @@
+python -m pip install --upgrade pip
+python -m pip install django
+django-admin startproject web_project .
+python manage.py migrate
+python manage.py startapp hello
+python manage.py collectstatic 
